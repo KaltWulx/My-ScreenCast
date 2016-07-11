@@ -13,7 +13,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 /**
  *
@@ -28,7 +27,6 @@ public class MainView extends Application {
 
     private void configureUI(Stage s) {
         try {
-            //s.initStyle(StageStyle.UNDECORATED);
             Parent root = FXMLLoader.load(getClass().getResource("/fxml/UI.fxml"));
             Scene scene = new Scene(root);
             scene.getStylesheets().add("/css/Style.css");
@@ -36,7 +34,7 @@ public class MainView extends Application {
             s.setResizable(false);
 
             s.centerOnScreen();
-            s.setTitle("Simple ScreenCast");
+            s.setTitle("My ScreenCast");
             s.show();
         } catch (IOException ex) {
             Logger.getLogger(MainView.class.getName()).log(Level.SEVERE, null, ex);

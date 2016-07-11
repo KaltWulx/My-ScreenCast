@@ -8,7 +8,6 @@ package controller;
 import java.io.File;
 import javafx.application.Platform;
 import javafx.concurrent.Task;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -48,7 +47,6 @@ public class Controller {
                 @Override
                 protected Void call() {
                     ScreenRecordUtils.runCommand();
-                    
                     return null;
                 }
             };
@@ -74,7 +72,7 @@ public class Controller {
             bRecord.setText("Record");
             bRecord.setDisable(true);
             bSaveTo.setDisable(false);
-            s.setTitle("Simple ScreenCast");
+            s.setTitle("My ScreenCast");
         }
     }
 

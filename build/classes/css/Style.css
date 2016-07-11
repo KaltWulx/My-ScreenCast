@@ -20,11 +20,9 @@ and open the template in the editor.
     -fx-font-size: 2em;
     -fx-text-fill: white;
     -fx-text-alignment: center;
-
 }
 .button:hover {
-    -fx-background-color: #cc0000;
-    
+    -fx-background-color: #cc0000;   
 }
 .button:pressed {
     -fx-padding: 10 15 13 15;
@@ -39,7 +37,6 @@ and open the template in the editor.
     -fx-font-size: 0.85em;
     -fx-text-fill: white;
     -fx-text-alignment: center;
- 
 }
 
 #bSaveTo:hover {
@@ -48,7 +45,5 @@ and open the template in the editor.
 #bSaveTo:pressed {
     -fx-padding: 10 15 13 15;
     -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
-
-
-    
+  
 }
