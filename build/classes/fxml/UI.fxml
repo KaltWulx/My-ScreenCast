@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="339.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.Controller">
+  <children>
+    <Button fx:id="bSaveTo" layoutX="241.0" layoutY="268.0" mnemonicParsing="false" onMouseClicked="#clicButtonSave" text="Save to..." textAlignment="LEFT" textOverrun="CLIP" wrapText="false" />
+    <Button fx:id="bRecord" disable="true" layoutX="111.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#clicButtonRecord" text="Record" />
+  </children>
+</AnchorPane>
